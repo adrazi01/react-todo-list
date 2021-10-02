@@ -7,7 +7,7 @@ export default class TodoInput extends Component {
         <form>
           <div className="input-group">
             <div className="input-group-prepend">
-              <div className="input-group-text bg-primary text-white">
+              <div className="input-group-text h-100 bg-primary text-white">
                 <i className="fas fa-book" />
               </div>
             </div>
@@ -17,7 +17,7 @@ export default class TodoInput extends Component {
               placeholder="add a todo item"
             />
           </div>
-          <button type="submit" className="btn btn-block btn-primary mt-3">
+          <button type="submit" className="btn w-100 btn-primary mt-3">
             add item
           </button>
         </form>
